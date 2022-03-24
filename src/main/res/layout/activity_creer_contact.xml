@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond_gris"
+    tools:context=".CreerContact">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@color/bleu_partout"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:onClick="goMenu"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/logo_v5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:fontFamily="@font/maven_pro_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/annuaire"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:onClick="goCompte"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/moncompte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageButton
+                android:id="@+id/annuler"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                app:srcCompat="@drawable/bouton_annuler"
+                android:onClick="goContact"
+                android:scaleType="fitCenter"
+                android:background="@color/transparant"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageButton
+                android:id="@+id/enregistrer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:background="@color/transparant"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bouton_enregistrer" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="81"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Nom"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/nom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView16"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Nom"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/nom"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Prénom"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/prenom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView10"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Prénom"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/prenom"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="@string/numpers"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/numpers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView17"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="@string/numpers"
+                            android:inputType="phone"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numpers"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="@string/numgarde"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/numg"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView11"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:inputType="phone"
+                            android:hint="@string/numgarde"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/numg"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="@string/note"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/notes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView12"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="@string/note"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

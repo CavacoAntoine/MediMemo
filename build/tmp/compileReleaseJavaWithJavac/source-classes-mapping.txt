@@ -1,0 +1,200 @@
+com/example/medimemov1/CalcemieCorrige.java
+ com.example.medimemov1.CalcemieCorrige
+ com.example.medimemov1.CalcemieCorrige$1
+com/example/medimemov1/CreerProcedure.java
+ com.example.medimemov1.CreerProcedure
+ com.example.medimemov1.CreerProcedure$1
+ com.example.medimemov1.CreerProcedure$2
+com/example/medimemov1/PopupProcedure.java
+ com.example.medimemov1.PopupProcedure
+com/example/medimemov1/models/ItemProcedure.java
+ com.example.medimemov1.models.ItemProcedure
+com/example/medimemov1/PopupContact.java
+ com.example.medimemov1.PopupContact
+com/example/medimemov1/clairancecreatinine.java
+ com.example.medimemov1.clairancecreatinine
+ com.example.medimemov1.clairancecreatinine$1
+com/example/medimemov1/Groupe.java
+ com.example.medimemov1.Groupe
+ com.example.medimemov1.Groupe$1
+ com.example.medimemov1.Groupe$2
+ com.example.medimemov1.Groupe$3
+com/example/medimemov1/EditMotDePasse.java
+ com.example.medimemov1.EditMotDePasse
+ com.example.medimemov1.EditMotDePasse$1
+ com.example.medimemov1.EditMotDePasse$1$1
+ com.example.medimemov1.EditMotDePasse$1$2
+ com.example.medimemov1.EditMotDePasse$2
+com/example/medimemov1/Register.java
+ com.example.medimemov1.Register
+ com.example.medimemov1.Register$1
+ com.example.medimemov1.Register$1$1
+ com.example.medimemov1.Register$1$1$1
+ com.example.medimemov1.Register$1$1$2
+com/example/medimemov1/Parametres.java
+ com.example.medimemov1.Parametres
+com/example/medimemov1/CreerContact.java
+ com.example.medimemov1.CreerContact
+ com.example.medimemov1.CreerContact$1
+com/example/medimemov1/Procedures.java
+ com.example.medimemov1.Procedures
+ com.example.medimemov1.Procedures$1
+ com.example.medimemov1.Procedures$MainAdapter
+com/example/medimemov1/CreerMedicament.java
+ com.example.medimemov1.CreerMedicament
+ com.example.medimemov1.CreerMedicament$1
+ com.example.medimemov1.CreerMedicament$2
+com/example/medimemov1/Popup.java
+ com.example.medimemov1.Popup
+com/example/medimemov1/Medicament.java
+ com.example.medimemov1.Medicament
+ com.example.medimemov1.Medicament$1
+ com.example.medimemov1.Medicament$MainAdapter
+com/example/medimemov1/models/ItemListe.java
+ com.example.medimemov1.models.ItemListe
+com/example/medimemov1/Contact.java
+ com.example.medimemov1.Contact
+ com.example.medimemov1.Contact$1
+ com.example.medimemov1.Contact$2
+ com.example.medimemov1.Contact$3
+ com.example.medimemov1.Contact$3$1
+ com.example.medimemov1.Contact$3$2
+ com.example.medimemov1.Contact$3$3
+ com.example.medimemov1.Contact$4
+com/example/medimemov1/ProceduresListe.java
+ com.example.medimemov1.ProceduresListe
+ com.example.medimemov1.ProceduresListe$1
+ com.example.medimemov1.ProceduresListe$2
+com/example/medimemov1/adapter/ItemContactAdapter.java
+ com.example.medimemov1.adapter.ItemContactAdapter
+ com.example.medimemov1.adapter.ItemContactAdapter$1
+ com.example.medimemov1.adapter.ItemContactAdapter$2
+ com.example.medimemov1.adapter.ItemContactAdapter$2$1
+ com.example.medimemov1.adapter.ItemContactAdapter$2$2
+ com.example.medimemov1.adapter.ItemContactAdapter$2$3
+ com.example.medimemov1.adapter.ItemContactAdapter$CustomFilter
+com/example/medimemov1/MesMedicaments.java
+ com.example.medimemov1.MesMedicaments
+ com.example.medimemov1.MesMedicaments$1
+ com.example.medimemov1.MesMedicaments$2
+com/example/medimemov1/TousLesMedicaments.java
+ com.example.medimemov1.TousLesMedicaments
+ com.example.medimemov1.TousLesMedicaments$1
+ com.example.medimemov1.TousLesMedicaments$2
+ com.example.medimemov1.TousLesMedicaments$3
+com/example/medimemov1/Calculateurs.java
+ com.example.medimemov1.Calculateurs
+ com.example.medimemov1.Calculateurs$1
+com/example/medimemov1/models/ItemContact.java
+ com.example.medimemov1.models.ItemContact
+com/example/medimemov1/ConnexionInternet.java
+ com.example.medimemov1.ConnexionInternet
+com/example/medimemov1/Annuaire.java
+ com.example.medimemov1.Annuaire
+ com.example.medimemov1.Annuaire$1
+ com.example.medimemov1.Annuaire$2
+ com.example.medimemov1.Annuaire$3
+com/example/medimemov1/adapter/ItemProcedureAdapter.java
+ com.example.medimemov1.adapter.ItemProcedureAdapter
+ com.example.medimemov1.adapter.ItemProcedureAdapter$1
+ com.example.medimemov1.adapter.ItemProcedureAdapter$CustomFilter
+com/example/medimemov1/MonCompte.java
+ com.example.medimemov1.MonCompte
+ com.example.medimemov1.MonCompte$1
+ com.example.medimemov1.MonCompte$2
+ com.example.medimemov1.MonCompte$2$1
+ com.example.medimemov1.MonCompte$2$2
+ com.example.medimemov1.MonCompte$2$3
+ com.example.medimemov1.MonCompte$2$4
+ com.example.medimemov1.MonCompte$3
+com/example/medimemov1/MdpOublie.java
+ com.example.medimemov1.MdpOublie
+ com.example.medimemov1.MdpOublie$1
+ com.example.medimemov1.MdpOublie$1$1
+ com.example.medimemov1.MdpOublie$1$2
+com/example/medimemov1/models/ItemGroupes.java
+ com.example.medimemov1.models.ItemGroupes
+com/example/medimemov1/EditProfil.java
+ com.example.medimemov1.EditProfil
+ com.example.medimemov1.EditProfil$1
+ com.example.medimemov1.EditProfil$2
+ com.example.medimemov1.EditProfil$2$1
+ com.example.medimemov1.EditProfil$2$2
+ com.example.medimemov1.EditProfil$2$2$1
+com/example/medimemov1/IMC.java
+ com.example.medimemov1.IMC
+ com.example.medimemov1.IMC$1
+com/example/medimemov1/models/ItemMedicament.java
+ com.example.medimemov1.models.ItemMedicament
+com/example/medimemov1/ModifierContact.java
+ com.example.medimemov1.ModifierContact
+ com.example.medimemov1.ModifierContact$1
+ com.example.medimemov1.ModifierContact$2
+com/example/medimemov1/BuildConfig.java
+ com.example.medimemov1.BuildConfig
+com/example/medimemov1/DFG.java
+ com.example.medimemov1.DFG
+ com.example.medimemov1.DFG$1
+ com.example.medimemov1.DFG$2
+com/example/medimemov1/Menu.java
+ com.example.medimemov1.Menu
+ com.example.medimemov1.Menu$1
+ com.example.medimemov1.Menu$2
+ com.example.medimemov1.Menu$3
+com/example/medimemov1/Login.java
+ com.example.medimemov1.Login
+ com.example.medimemov1.Login$1
+ com.example.medimemov1.Login$1$1
+com/example/medimemov1/ModifierMedicament.java
+ com.example.medimemov1.ModifierMedicament
+ com.example.medimemov1.ModifierMedicament$1
+ com.example.medimemov1.ModifierMedicament$2
+ com.example.medimemov1.ModifierMedicament$3
+com/example/medimemov1/PopupMedicamentCreer.java
+ com.example.medimemov1.PopupMedicamentCreer
+com/example/medimemov1/adapter/ItemListeAdapter.java
+ com.example.medimemov1.adapter.ItemListeAdapter
+ com.example.medimemov1.adapter.ItemListeAdapter$1
+ com.example.medimemov1.adapter.ItemListeAdapter$2
+ com.example.medimemov1.adapter.ItemListeAdapter$2$1
+ com.example.medimemov1.adapter.ItemListeAdapter$2$2
+ com.example.medimemov1.adapter.ItemListeAdapter$2$3
+ com.example.medimemov1.adapter.ItemListeAdapter$2$4
+ com.example.medimemov1.adapter.ItemListeAdapter$CustomFilter
+com/example/medimemov1/ModifierProcedure.java
+ com.example.medimemov1.ModifierProcedure
+ com.example.medimemov1.ModifierProcedure$1
+ com.example.medimemov1.ModifierProcedure$2
+com/example/medimemov1/adapter/ItemMedicamentsAdapter.java
+ com.example.medimemov1.adapter.ItemMedicamentsAdapter
+ com.example.medimemov1.adapter.ItemMedicamentsAdapter$1
+ com.example.medimemov1.adapter.ItemMedicamentsAdapter$1$1
+ com.example.medimemov1.adapter.ItemMedicamentsAdapter$1$2
+ com.example.medimemov1.adapter.ItemMedicamentsAdapter$1$2$1
+ com.example.medimemov1.adapter.ItemMedicamentsAdapter$CustomFilter
+com/example/medimemov1/PopupMedicamentSeul.java
+ com.example.medimemov1.PopupMedicamentSeul
+com/example/medimemov1/ProcedureSeule.java
+ com.example.medimemov1.ProcedureSeule
+ com.example.medimemov1.ProcedureSeule$1
+ com.example.medimemov1.ProcedureSeule$1$1
+ com.example.medimemov1.ProcedureSeule$1$2
+ com.example.medimemov1.ProcedureSeule$1$3
+ com.example.medimemov1.ProcedureSeule$1$4
+ com.example.medimemov1.ProcedureSeule$2
+com/example/medimemov1/MedicamentSeul.java
+ com.example.medimemov1.MedicamentSeul
+ com.example.medimemov1.MedicamentSeul$1
+ com.example.medimemov1.MedicamentSeul$2
+ com.example.medimemov1.MedicamentSeul$2$1
+ com.example.medimemov1.MedicamentSeul$2$2
+ com.example.medimemov1.MedicamentSeul$3
+ com.example.medimemov1.MedicamentSeul$3$1
+ com.example.medimemov1.MedicamentSeul$3$2
+ com.example.medimemov1.MedicamentSeul$3$3
+ com.example.medimemov1.MedicamentSeul$3$4
+ com.example.medimemov1.MedicamentSeul$4
+com/example/medimemov1/adapter/ItemGroupeAdapter.java
+ com.example.medimemov1.adapter.ItemGroupeAdapter
+ com.example.medimemov1.adapter.ItemGroupeAdapter$1
+ com.example.medimemov1.adapter.ItemGroupeAdapter$CustomFilter

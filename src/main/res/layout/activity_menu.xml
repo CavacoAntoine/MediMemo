@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond_gris"
+    tools:context=".Menu">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@color/bleu_partout"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/logo_v5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:fontFamily="@font/maven_pro_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/menu"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:onClick="goCompte"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerInside"
+                android:visibility="visible"
+                app:srcCompat="@drawable/moncompte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="27"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"></LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20"
+                android:text="Vos groupes :">
+
+            </EditText>
+
+            <ListView
+
+                android:id="@+id/listGroupe"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLMenu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="65"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageButton
+                    android:id="@+id/imageButton38"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:background="#00FFFFFF"
+                    android:onClick="goAnnuaire"
+                    android:scaleType="fitEnd"
+                    app:srcCompat="@drawable/bouton_annuaire" />
+
+                <ImageButton
+                    android:id="@+id/imageButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:background="#00FFFFFF"
+                    android:onClick="goProcedures"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/bouton_procedures" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <ImageButton
+                    android:id="@+id/imageButton40"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:background="#00FFFFFF"
+                    android:onClick="goMedicaments"
+                    android:scaleType="fitEnd"
+                    app:srcCompat="@drawable/bouton_medicament" />
+
+                <ImageButton
+                    android:id="@+id/imageButton41"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:background="#00FFFFFF"
+                    android:onClick="goGroupes"
+                    android:scaleType="fitStart"
+                    app:srcCompat="@drawable/bouton_groupes" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

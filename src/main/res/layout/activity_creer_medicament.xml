@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreerMedicament"
+    android:background="@color/fond_gris"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/fond_gris"
+        android:orientation="vertical"
+        android:weightSum="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@color/bleu_partout"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:onClick="goMenu"
+                app:srcCompat="@drawable/logo_v5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:fontFamily="@font/maven_pro_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/med"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerInside"
+                android:onClick="goCompte"
+                app:srcCompat="@drawable/moncompte" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageButton
+                android:id="@+id/annuler"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                app:srcCompat="@drawable/bouton_annuler"
+                android:scaleType="fitCenter"
+                android:background="@color/transparant"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageButton
+                android:id="@+id/enregistrer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="35"
+                android:background="@color/transparant"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bouton_enregistrer" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="vertical"></LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="81"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Nom"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/nom"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView16"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte nom"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/nom"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Famille"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/famille"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView10"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte famille"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/famille"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Présentation"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/presentation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView17"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte présentation"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/presentation"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Surveillance"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/surveillance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView11"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte surveillance"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/surveillance"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Posologie"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/posologie"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView12"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte posologie"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/posologie"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Indications"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/indications"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView13"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte indications"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/indications"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Contre-indications"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/contreindication"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView14"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte contre-indications"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/contreindication"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Effets indésirables"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/effets"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView15"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte effets indésirables"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView56"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/effets"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Protocole"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/protocole"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView56"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:hint="Texte protocole"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

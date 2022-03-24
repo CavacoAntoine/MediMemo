@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="noire_titre">#464646</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="noire">#000000</color>
+    <color name="fond_gris">#E6E6E6</color>
+    <color name="bleu_partout">#77B5FE</color>
+    <color name="transparant">#00FFFFFF</color>
+    <color name="bleu_menu_claire">#A9CBD7</color>
+    <color name="jaune_barre">#F1DA8F</color>
+    <color name="rouge_extr">#FF0000</color>
+
+</resources>

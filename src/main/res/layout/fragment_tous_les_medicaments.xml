@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TousLesMedicaments">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:background="@drawable/barre_de_texte"
+            android:fontFamily="@font/maven_pro"
+            android:hint="@string/recherche"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textColorHint="@color/noire" />
+
+        <ImageButton
+            android:id="@+id/ajout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/search_bar"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bouton_plus" />
+
+        <ListView
+            android:id="@+id/listeMedicaments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/search_bar">
+
+        </ListView>
+
+    </RelativeLayout>
+
+</FrameLayout>

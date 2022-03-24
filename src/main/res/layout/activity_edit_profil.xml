@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond_gris"
+    tools:context=".EditProfil">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@color/bleu_partout"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/logo_v5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:fontFamily="@font/maven_pro_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/compte"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/moncompte" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:fontFamily="@font/maven_pro_medium"
+                android:gravity="bottom"
+                android:text="@string/nom"
+                android:textColor="@color/noire"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/profilName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:background="@color/white"
+                android:fontFamily="@font/maven_pro"
+                android:gravity="center_vertical"
+                android:hint="@string/nom"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/noire"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:fontFamily="@font/maven_pro_medium"
+                android:gravity="bottom"
+                android:text="@string/prénom"
+                android:textColor="@color/noire"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/profilSurname"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:background="@color/white"
+                android:fontFamily="@font/maven_pro"
+                android:gravity="center_vertical"
+                android:hint="@string/prénom"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/noire"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:fontFamily="@font/maven_pro_medium"
+                android:gravity="bottom"
+                android:text="@string/mail"
+                android:textColor="@color/noire"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/profilMail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:background="@color/white"
+                android:fontFamily="@font/maven_pro"
+                android:gravity="center_vertical"
+                android:hint="@string/mail"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/noire"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:fontFamily="@font/maven_pro_medium"
+                android:gravity="bottom"
+                android:text="@string/numpers"
+                android:textColor="@color/noire"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/profilNumPers"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:background="@color/white"
+                android:fontFamily="@font/maven_pro"
+                android:gravity="center_vertical"
+                android:hint="@string/numpers"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/noire"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:fontFamily="@font/maven_pro_medium"
+                android:gravity="bottom"
+                android:text="@string/numgarde"
+                android:textColor="@color/noire"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/profilNumGarde"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:background="@color/white"
+                android:fontFamily="@font/maven_pro"
+                android:gravity="center_vertical"
+                android:hint="@string/numgarde"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/noire"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:fontFamily="@font/maven_pro_medium"
+                android:gravity="bottom"
+                android:text="@string/prof"
+                android:textColor="@color/noire"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+
+            <EditText
+                android:id="@+id/profilProf"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:background="@color/white"
+                android:fontFamily="@font/maven_pro"
+                android:gravity="center_vertical"
+                android:hint="@string/prof"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/noire"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:weightSum="100"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:orientation="horizontal"/>
+
+
+            <ImageButton
+                android:id="@+id/annuler"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bouton_annuler" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bouton_enregistrer" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

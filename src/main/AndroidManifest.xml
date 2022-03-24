@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medimemov1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MediMemoV1">
+        <activity android:name=".CalcemieCorrige" />
+        <activity android:name=".DFG" />
+        <activity android:name=".ModifierProcedure" />
+        <activity android:name=".CreerProcedure" />
+        <activity android:name=".ProcedureSeule" />
+        <activity android:name=".ModifierContact" />
+        <activity android:name=".CreerContact" />
+        <activity android:name=".Contact" />
+        <activity android:name=".IMC" />
+        <activity android:name=".clairancecreatinine" />
+        <activity android:name=".CreerMedicament" />
+        <activity android:name=".ModifierMedicament" />
+        <activity android:name=".MedicamentSeul" />
+        <activity android:name=".Parametres" />
+        <activity android:name=".EditMotDePasse" />
+        <activity android:name=".EditProfil" />
+        <activity android:name=".Procedures" />
+        <activity android:name=".Groupe" />
+        <activity android:name=".Medicament" />
+        <activity android:name=".Annuaire" />
+        <activity android:name=".Menu" />
+        <activity android:name=".MonCompte" />
+        <activity android:name=".MdpOublie" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+    </application>
+
+</manifest>

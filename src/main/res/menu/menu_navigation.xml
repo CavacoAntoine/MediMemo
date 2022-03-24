@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/telephone"
+        android:title="Telephone"
+        android:icon="@drawable/ic_telephone"/>
+
+    <item
+        android:id="@+id/medicament"
+        android:title="Médicament"
+        android:icon="@drawable/ic_medicaments"/>
+
+    <item
+        android:id="@+id/procedures"
+        android:title="Procédure"
+        android:icon="@drawable/ic_proc_dures"/>
+
+    <item
+        android:id="@+id/groupes"
+        android:title="Groupe"
+        android:icon="@drawable/ic_groupes"/>
+</menu>

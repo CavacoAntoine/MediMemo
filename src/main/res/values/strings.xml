@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MediMemo</string>
+    <string name="vosGroupes">Vos Groupes :</string>
+    <string name="urgCastres">Urgences Castres</string>
+    <string name="anestCastres">Anesthésie Castres</string>
+    <string name="reaCastre">Réanimation Castres</string>
+    <string name="med">Médicaments</string>
+    <string name="annuaire">Annuaire</string>
+    <string name="process">Procédures</string>
+    <string name="groupe">Groupes</string>
+    <string name="menu">Menu</string>
+    <string name="creercompte">Créer un compte</string>
+    <string name="nom">Votre nom</string>
+    <string name="prénom">Votre prénom</string>
+    <string name="mail">Adresse mail</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="mdp2">Répéter le mot de passe</string>
+    <string name="mdp_oublie">Mot de passe oublié ?</string>
+    <string name="pdc">Pas de compte ?</string>
+    <string name="txt_mdp_oublie">Pas de souci ! Indiquez votre adresse mail et vous recevrez vos informations de conexion :</string>
+    <string name="compte">Mon compte</string>
+    <string name="verifie">Email non vérifié !</string>
+    <string name="verifie2">Vérifier maintenant !</string>
+    <string name="numpers">Numéro de téléphone personnel</string>
+    <string name="numgarde">Numéro de téléphone de garde</string>
+    <string name="prof">Profession</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="modif_compte">Modifier mes informations</string>
+    <string name="deconnexion">Déconnexion</string>
+    <string name="param">Paramètres</string>
+    <string name="Sauvegarder">Sauvegarder</string>
+    <string name="modif_mdp">Modifier le mot de passe</string>
+    <string name="ancien_mdp">Ancien mot de passe</string>
+    <string name="new_mdp">Nouveau mot de passe</string>
+    <string name="confirm_mdp">Confirmer le mot de passe</string>
+    <string name="recherche">Rechercher</string>
+    <string name="note">Notes</string>
+</resources>

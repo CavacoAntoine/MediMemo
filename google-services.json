@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "326961987244",
+    "project_id": "medimemo-65ab3",
+    "storage_bucket": "medimemo-65ab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326961987244:android:d72d0ff04aaef3a1d16909",
+        "android_client_info": {
+          "package_name": "com.example.medimemov1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326961987244-88e6hp5qop1cams71a69qlp8vtvemi2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medimemov1",
+            "certificate_hash": "384dd3f664ffb8501b6a303411a2e761e47d3452"
+          }
+        },
+        {
+          "client_id": "326961987244-jaj9ud9rqpagmlrmd0vk90c81e8s6dlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBCydGId07iuBeUKOS5OqwcXVBJfWLz9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326961987244-jaj9ud9rqpagmlrmd0vk90c81e8s6dlc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

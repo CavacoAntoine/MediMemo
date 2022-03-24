@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fond_gris"
+    tools:context=".MedicamentSeul"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/fond_gris"
+        android:orientation="vertical"
+        android:weightSum="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@color/bleu_partout"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:onClick="goMenu"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/logo_v5" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:fontFamily="@font/maven_pro_bold"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/med"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:background="#00FFFFFF"
+                android:onClick="goCompte"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/moncompte" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:background="#0FFFFFFF"
+                android:onClick="goMedicament"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_menu_revert" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <TextView
+                    android:id="@+id/nom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:fontFamily="@font/maven_pro_bold"
+                    android:gravity="center"
+                    android:text="Nom"
+                    android:textColor="@color/noire"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:fontFamily="@font/maven_pro"
+                    android:gravity="center"
+                    android:text="Famille"
+                    android:textColor="@color/noire"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/popup_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:background="#0FFFFFFF"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/trois_petits_points" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="69"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="90"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Présentation"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/presentation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView16"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Texte présentation"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/surveillance"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Posologie"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/posologie"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView10"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Texte posologie"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/presentation"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Surveillance"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/surveillance"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView17"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="-0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Texte surveillance"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/posologie"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Indications"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/indication"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView11"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Texte indications"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/indication"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Contre-indications"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/contreindication"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView12"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Texte contre-indications"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/contreindication"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Effets indésirables"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/effets"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView13"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Texte effets indésirables"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/effets"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/bleu_partout"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Protocole"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/protocole"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView14"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginRight="0dp"
+                            android:background="@color/white"
+                            android:fontFamily="@font/maven_pro"
+                            android:paddingLeft="5dp"
+                            android:text="Texte protocole"
+                            android:textColor="@color/noire"
+                            android:textSize="18sp" />
+
+                    </RelativeLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:itemBackground="@color/bleu_partout"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_navigation" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

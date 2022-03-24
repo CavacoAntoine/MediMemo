@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">326961987244-jaj9ud9rqpagmlrmd0vk90c81e8s6dlc.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">326961987244</string>
+    <string name="google_api_key" translatable="false">AIzaSyBBCydGId07iuBeUKOS5OqwcXVBJfWLz9M</string>
+    <string name="google_app_id" translatable="false">1:326961987244:android:d72d0ff04aaef3a1d16909</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBBCydGId07iuBeUKOS5OqwcXVBJfWLz9M</string>
+    <string name="google_storage_bucket" translatable="false">medimemo-65ab3.appspot.com</string>
+    <string name="project_id" translatable="false">medimemo-65ab3</string>
+</resources>

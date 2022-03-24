@@ -1,0 +1,430 @@
+[
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_telephone.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_telephone.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_navigation.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\menu\\menu_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_mot_de_passe.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_edit_mot_de_passe.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_barre_de_texte.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\barre_de_texte.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_groupes.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_groupes.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tab_indicator.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable\\tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_telephone.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_telephone.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_medicament_seul.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_medicament_seul.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_modifier_procedure.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_modifier_procedure.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_medicaments.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_medicaments.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_creer_compte.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_creer_compte.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_medicaments.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_medicaments.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_groupes.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_groupes.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_plus.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_plus.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_proc_dures.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_proc_dures.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_telephone.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_telephone.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dfg.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_dfg.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_procedures_liste.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\fragment_procedures_liste.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_procedures.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\adapter_procedures.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_annuaire.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_annuaire.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_telephone.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_telephone.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_contacts.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\adapter_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_medicaments.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_medicaments.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_proc_dures.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_proc_dures.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_listes.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\adapter_listes.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tous_les_medicaments.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\fragment_tous_les_medicaments.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_procedures.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_procedures.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_profil.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_edit_profil.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_groupes.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_groupes.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_proc_dures.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_proc_dures.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_telephone.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_telephone.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_enregistrer.PNG.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_enregistrer.PNG"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable\\selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_groupes.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_groupes.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bandeau_imc.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable\\bandeau_imc.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\font_maven_pro_bold.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\font\\maven_pro_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_contact.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_popup_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_medicaments.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_medicaments.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_groupes.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_groupes.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\font_maven_pro.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\font\\maven_pro.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_medicaments.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_medicaments.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_procedures.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_procedures.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_mes_listes.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\fragment_mes_listes.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_creer_medicament.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_creer_medicament.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_medicaments.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_medicaments.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bullemessages.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bullemessages.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_telephone.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_telephone.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_telephone.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_telephone.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\font_maven_pro_medium.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\font\\maven_pro_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_med.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\med.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_medicament_seul.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_popup_medicament_seul.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tel.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\tel.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_groupe.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_groupe.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mdp_oublie.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_mdp_oublie.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo_v5.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\logo_v5.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_proc_dures.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_proc_dures.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_procedure_seule.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_procedure_seule.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_clairancecreatinine.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_clairancecreatinine.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_medicament_creer.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_popup_medicament_creer.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_proc_dures.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_proc_dures.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_medicament.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_medicament.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_groupe.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\groupe.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_medicaments.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\adapter_medicaments.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_moncompte.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\moncompte.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_modifier_medicament.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_modifier_medicament.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_groupes.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_groupes.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_proc_dures.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_proc_dures.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_medicament.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_medicament.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_proc_dures.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_proc_dures.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flecheretour.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable\\flecheretour.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_connecter.PNG.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_connecter.PNG"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_calcemie_corrige.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_calcemie_corrige.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_medicaments.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_medicaments.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_imc.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_imc.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_envoyer.PNG.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_envoyer.PNG"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_creer_contact.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_creer_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_process.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\process.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_groupes.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_groupes.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup_procedure.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_popup_procedure.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_annuaire.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_annuaire.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bouton_annuler.PNG.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\bouton_annuler.PNG"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_parametres.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_parametres.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_modifier_contact.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_modifier_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapter_groupe.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\adapter_groupe.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_creer_procedure.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_creer_procedure.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_calculateurs.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\fragment_calculateurs.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mon_compte.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_mon_compte.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact.xml.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_trois_petits_points.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\src\\main\\res\\drawable-v24\\trois_petits_points.png"
+    },
+    {
+        "merged": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_groupes.png.flat",
+        "source": "C:\\Users\\extra\\AndroidStudioProjects\\MediMemoV1\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_groupes.png"
+    }
+]
